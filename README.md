@@ -1,1 +1,0 @@
-# senamig.github.io
