@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ejemplo 048</title>
+<style type="text/css">
+            body {
+                font-family: arial;    
+                background-color: rgb(140,202,242);}
+            hl {
+                color: rgb(255,255,255);}
+        </style>
+
+<script language = "javascript" type= "text/javascript">
+  var tecIng = prompt("Presiona una tecla: ");
+  var typNum = Number(TecIng);
+  if (!(isNaN(typNum))) {
+    var res = typeof(typNum);
+    }else{
+       var res = typeof(tecIng);
+    }  
+   switch (res) {
+     case 'number':
+      est = "un numero"
+     break;
+     case 'string':
+     est = "un caracter"
+    break;
+    default:
+    console.log('default');
+    break;
+  }
+  alert('La tecla presionada es: ' + est);
+</script>
+</head>
+<body>
+   <p>Confirmar puntaje del participante</p>
+   <p>Programa en Javascript para revisar si un valor
+      ingresado es un numero o un caracter</p>
+   <p>Se reconfirmará valores de puntajes de gamers participantes,
+      para determinar su categorización</p>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ejemplo 044</title>
+<style type="text/css">
+            body {
+                font-family: arial;    
+                background-color: rgb(140,202,242);}
+            hl {
+                color: rgb(255,255,255);}
+        </style>
+
+<script language = "javascript" type= "text/javascript">
+   var edad;
+   edad = prompt('Por favor ingresa tu edad: ');
+   if (edad =="") {
+     alert ('No has ingresado una edad');
+     }
+    edad = Number(edad);
+    switch (edad) {
+            case 0:
+       alert ("Acaba de nacer, No has cumplido un año");
+       break;
+            case 18:
+       alert ("Está justo en la mayoría de edad");
+       break;
+            case 65:
+       alert ("Está justo en la edad de la jubilación");
+       break;
+            default:
+       alert ("La edad no es crítica");
+       break;
+        }
+   alert('Resultado: ' + res);
+</script>
+</head>
+<body>
+   <p>edad limite torneo</p>
+   <p>Programa en Javascript para ingresar una edad
+      y obtener un estado</p>
+   <p>esta opcion permite determinar la edad minima y maxima
+      de los participantes</p>
+</body>
+</html>

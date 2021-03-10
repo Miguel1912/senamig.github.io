@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ejemplo 029</title>
+<style type="text/css">
+            body {
+                font-family: arial;    
+                background-color: rgb(140,202,242);}
+            hl {
+                color: rgb(255,255,255);}
+        </style>
+
+<script language = "javascript" type= "text/javascript">
+   var D1 = 0.1; D1.toFixed(2);
+   var D2 = 0.2; D2.toFixed(2);
+   var IGV = 0.19; IGV.toFixed(2);
+  var num,m_d,m_igv,p; 
+        num = prompt("Ingrese el valor del consumo: ");
+        num = parseFloat(num); var c = num.toFixed();
+        if(C <= 100 ) {
+          m_d = c * D1;
+        }else{
+          m_d = c * D2;
+        }
+        m_igv = (c - m_d) * IGV;
+        P = C - m_d + m_igv;
+        alert("monto descuento: " + m_d +
+        "\nImpuesto IGV: " + m_igv + 
+        "\nImporte a pagar: " + p );
+</script>
+</head>
+<body>
+   <p>Descuentos a los iinscritos al torneo</p>
+   <p>Programa en Javascript para calcular el descuento
+      del 10% en consumos hasta 100 y descuento del 20%
+      en consumos mayores a 100.</p>
+    <p>Se harán descuentos a los inscritos por primera vez 
+       al torneo</p>
+</body>
+</html>

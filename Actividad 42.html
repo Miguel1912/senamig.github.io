@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ejemplo 042</title>
+<style type="text/css">
+            body {
+                font-family: arial;    
+                background-color: rgb(140,202,242);}
+            hl {
+                color: rgb(255,255,255);}
+        </style>
+
+<script language = "javascript" type= "text/javascript">
+   var num = prompt("Ingresa un numero entre 0 y 9: ");
+   var letras = "";
+     num = parseInt(num);
+     switch (num) {
+     case 0:
+      letras = "Cero"
+     break;
+     case 1:
+      letras = "Uno"
+     break;
+     case 2:
+      letras = "Dos"
+     break;
+     case 3:
+      letras = "Tres"
+     break;
+     case 4:
+      letras = "Cuatro"
+     break;
+     case 5:
+      letras = "Cinco"
+     break;
+     case 6:
+      letras = "Seis"
+     break;
+     case 7:
+      letras = "Siete"
+     break;
+     case 8:
+     letras = "Ocho"
+     break;
+     case 9:
+     letras = "Nueve"
+     break;
+     default:
+     console.log('default');
+     break;
+  }
+  alert('En letras: ' + letras);
+</script>
+</head>
+<body>
+   <p>Corregir puntajes de torneo</p>
+   <p>Programa en Javascript para devolver el numero en letras
+      de un digito ingresado entre 0 y 9</p>
+   <p>Esta función es opcional para corregir puntajes
+      de gamers cuando por equivocación se ha digitado mal</p>
+</body>
+</html>

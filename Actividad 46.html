@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ejemplo 046</title>
+<style type="text/css">
+            body {
+                font-family: arial;    
+                background-color: rgb(140,202,242);}
+            hl {
+                color: rgb(255,255,255);}
+        </style>
+
+<script language = "javascript" type= "text/javascript">
+   const day = new Date().getDay();
+     switch (day) {
+        case 1:
+           valday = "Feliz Lunes!"
+        break;
+        case 2:
+           valday = "Es Martes, un día especial"
+        break;
+        case 3:
+           valday = "Miercoles, ya vamos a la mitad"
+        break;
+        case 4:
+           valday = "Es Jueves, solo un dia mas para el fin de semana!"
+        break;
+        case 5:
+           valday = "Feliz Viernes, listos!!"      
+        break;
+        case 6:
+           valday = "Que tengan un maravilloso Sábado"      
+        break;
+        case 7:
+           valday = "Es Domingo, hora de relajarse"      
+        break;
+     default:
+        alert ("No hay dia");
+        break;
+       }
+  alert('Mensaje del día: ' + valday);
+</script>
+</head>
+<body>
+   <p>recordatorios dias de competencia</p>
+   <p>Programa en Javascript para obtener el dia
+      del sistema</p>
+   <p>se enviarán recordatorios a participantes inscritos
+      sobre dias y hora de competencia</p>
+</body>
+</html>

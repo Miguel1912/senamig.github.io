@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ejemplo 040</title>
+<style type="text/css">
+            body {
+                font-family: arial;    
+                background-color: rgb(140,202,242);}
+            hl {
+                color: rgb(255,255,255);}
+        </style>
+
+<script language = "javascript" type= "text/javascript">
+   var nota = prompt("Introduzca una nota entre 0 y 10: ");
+    nota = parseInt(nota);
+    if (nota < 0 || nota > 10)
+         alert("Nota no válida");
+       else if(nota==10)
+         alert("Matrícula de Honor");
+       else if(nota >= 9)
+         alert("Sobresaliente");
+       else if(nota >= 7)
+         alert("Notable");
+       else if(nota >= 6)
+         alert("Bien");
+       else if(nota >= 5)
+         alert("Suficiente");
+       else
+        alert("Suspenso");
+</script>
+</head>
+<body>
+   <p>Determinar puntaje del gamer</p>
+   <p>Programa en Javascript para determinar el valor de una nota</p>
+   <p>Se sacará el promedio de calificación del gamer, mediante nota
+      del 1 al 9</p>
+</body>
+</html>

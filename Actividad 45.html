@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ejemplo 045</title>
+<style type="text/css">
+            body {
+                font-family: arial;    
+                background-color: rgb(140,202,242);}
+            hl {
+                color: rgb(255,255,255);}
+        </style>
+
+<script language = "javascript" type= "text/javascript">
+  var nota = prompt("Ingresa una nota entre 1 y 10: ");
+    nota = parseInt(nota);
+  var valLetras = "";
+    switch (nota) {
+     case 1:
+     case 2:
+     case 3:
+     case 4:
+        valLetras = "No Aprobado"
+     break;
+     case 5:
+        valLetras = "Aprobado"
+     break;
+     case 6:
+     case 7:
+        valLetras = "Bien"
+     break;
+     case 8:
+     case 9:
+        valLetras = "Notable"
+     break;
+     case 10:
+        valLetras = "Excelente"
+     break;
+     default:
+     alert ("Valor no valido");
+     break;
+  }
+  alert('Valor equivalente: ' + valLetras);
+</script>
+</head>
+<body>
+   <p>Calificación en letras del gamer</p>
+   <p>Programa en Javascript para devolver el valor equivalente
+      en letras de una calificación de 1 a 10</p>
+   <p>se hara la calificación de los gamer en letras</p>
+</body>
+</html>

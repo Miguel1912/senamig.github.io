@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ejemplo 037</title>
+<style type="text/css">
+            body {
+                font-family: arial;    
+                background-color: rgb(140,202,242);}
+            hl {
+                color: rgb(255,255,255);}
+        </style>
+
+<script language = "javascript" type= "text/javascript">
+   var edad = prompt("Ingresa Tu Edad: ");
+    edad = parseInt(edad);
+    noPuedeBeber=(edad<18)||(edad>60);
+    if (noPuedeBeber) {
+        alert("No puedes consumir licor");
+      } else {
+         alert("Puedes consumir una cerveza");
+      }   
+</script>
+</head>
+<body>
+   <p>Mayoria de edad para consumo</p>
+   <p>Programa en Javascript para determinar si es:
+      mayor de edad - modificado</p>
+   <p>Se tendrá este filtro durante la venta de licor
+      a mayores de edad unicamente, teniendo documento
+      en mano</p>
+</body>
+</html>

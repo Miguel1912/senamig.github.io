@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ejemplo 047</title>
+<style type="text/css">
+            body {
+                font-family: arial;    
+                background-color: rgb(140,202,242);}
+            hl {
+                color: rgb(255,255,255);}
+        </style>
+
+<script language = "javascript" type= "text/javascript">
+  var grade = prompt("Ingresa una nota entre 1 y 100: ");
+    grade = Number(grade);
+  var valLetras = "";
+    switch (true) {
+     case grade >= 90:
+        valLetras = " A "
+     break;
+     case grade >= 80:
+        valLetras = " B "
+     break;
+     case grade >= 80:
+        valLetras = " C "
+     break;
+     case grade >= 70:
+        valLetras = " D "
+     break;
+     case grade >= 60:
+        valLetras = " E "    
+     break;
+     default:
+     alert ("Valor no valido");
+        break;
+       }
+  alert('valor equivalente: ' + valLetras);
+</script>
+</head>
+<body>
+   <p>devolución de puntos en lentras</p>
+   <p>Programa en Javascript para devolver el valor equivalente
+      en letras de una calificación de 1 a 10, otra forma</p>
+   <p>se hace devolución de puntos en letras a los gamers que
+      por equivocación no se sumó</p>
+</body>
+</html>

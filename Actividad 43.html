@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ejemplo 043</title>
+<style type="text/css">
+            body {
+                font-family: arial;    
+                background-color: rgb(140,202,242);}
+            hl {
+                color: rgb(255,255,255);}
+        </style>
+
+<script language = "javascript" type= "text/javascript">
+   var operacion = prompt("Ingrese una operación" +
+   "\n+ para suma" + "\n- para resta" + 
+   "\n* para multiplicación" + "\n/ para division" +
+   "\nElija una opción: ");
+   numero1 = prompt("Ingresa el primer numero: ");
+  numero1 = parseInt(numero1);
+   numero2 = prompt("Ingresa el segundo numero: ");
+  numero2 = parseInt(numero2);
+  var res = 0;
+   switch (operacion) {
+    case '+':
+    res = numero1 + numero2;
+    break;
+    case '-':
+    res = numero1 - numero2;
+     break;
+     case '*':
+     res = numero1 * numero2;
+     break;
+     case '/': 
+     res = numero1 / numero2;
+     break;
+     default:
+     console.log('default');
+     break;
+  }
+  alert('Resultado: ' + res);
+</script>
+</head>
+<body>
+   <p>categorización de faltas tecnicas</p>
+   <p>Programa en Javascript para realizar una operación
+      dependiendo del signo ingresado</p>
+   <p>esta opción sirve para categorización de faltas y
+      recompensas de los gamer</p>
+</body>
+</html>
